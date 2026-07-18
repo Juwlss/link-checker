@@ -74,9 +74,7 @@ with gr.Blocks(title="Bulk Link Checker") as demo:
     with gr.Row():
         with gr.Column():
             input_pages = gr.Textbox(label="1. Paste Webpages to Scan", lines=10)
-            default_targets = """https://marymount.edu
-https://marymount.edu
-https://marymount.edu"""
+            default_targets = """"""
             input_targets = gr.Textbox(label="2. Target Links to Find (EDITABLE)", value=default_targets, lines=5)
             submit_btn = gr.Button("🚀 Run Automated Check", variant="primary")
         with gr.Column():
