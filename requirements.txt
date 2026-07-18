@@ -1,6 +1,6 @@
-gradio
+gradio==4.44.1
 httpx
 beautifulsoup4
 pandas
 fastapi
-uvicorn
+uvicorn[standard]
